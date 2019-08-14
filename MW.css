@@ -1,0 +1,165 @@
+body{
+    background-color: #ffffff
+
+}
+/* navbar*/
+h1{
+    text-align: center;
+
+}
+
+nav{
+	list-style: none;
+
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	display: inline;
+
+
+}
+nav li{
+	list-style: none;
+	width: 200px;
+	height: 40px;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	background-color: white;
+}
+nav li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+nav ul li a:hover{
+	background-color: #6699ff;
+}
+nav ul li ul li{
+	display: none;
+}
+nav ul li:hover ul li{
+	display: block;
+}
+div#top{
+	background-image: url("guitars.jpg");
+}
+
+/* Boxes */
+
+#boxes_mjazz{
+	border: 2px solid black;
+	width: 40%;
+    background-image: url("jazzbg.jpg");
+    float: left;
+    background-size: 14em;
+    text-align: center;
+
+}
+#boxes_mrock{
+	border: 2px solid black;
+	width: 40%;
+    background-image: url("rock-n-roll.jpg");
+    background-size: 10em;
+    float: right;
+    text-align: center;
+    margin-right: 10px
+}
+#boxes_mpop{
+	border: 2px solid black;
+	width: 40%;
+    float: left;
+    background-image: url("popbg.jpg");
+    background-size: 12em;
+    margin-top: 40px;
+    text-align: center;
+}
+#boxes_mcountry{
+	border: 2px solid black;
+	width: 40%;
+    float: right;
+    background-image: url("countrybg.jpg");
+    background-size: 12em;
+    margin-right: 10px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+a.fill{
+    display: block;
+    height: 100%;
+    width:100%;
+    text-decoration: none;
+    background-color: none;
+    color: #E82154;
+    text-size:30px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+
+
+#main{
+	font-size: 300%;
+	font-family:cursive;
+
+}
+
+#bar{
+	display: inline;
+	padding: 3px;
+	border-right: 1px solid black;
+}
+#hush{
+	display: inline;
+	padding-left: 5px;
+}
+
+/* footer */
+.footer-main{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 0;
+    padding-top: 40em;
+}
+.footer-icon{
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: black;
+    font-family: palatino;
+    padding:10px 0px 40px 0px;
+    text-align: center
+}
+
+.footer-icon li{
+    display: inline;
+}
+
+.footer{
+    float: right;
+    color: white;
+    font-family: palatino;
+}
+
+#sign{
+	position:fixed;
+	bottom: 20;
+	left: 0;
+
+}
+
+#leftContent {
+
+float:left;
+width: 20%;
+}
+
+#centerC{
+float:right;
+width: 80%;
+}
