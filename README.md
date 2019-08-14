@@ -10,7 +10,7 @@ some songs and better have an idea of the style of music a certain genre is.
 # What I Learned
 
 - Learned basics in using HTML and CSS.
-- Learned how to implement playlists from Spotify into the website pages themselves.
+- Learned how to implement playlists from Spotify into the website pages.
 - Learned to better design pages through the use of colors, images, and fonts. 
 
 
